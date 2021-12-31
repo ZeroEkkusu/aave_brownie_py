@@ -1,22 +1,19 @@
 # About
-A Brownie suite for basic interaction with the [Aave protocol](https://github.com/aave/protocol-v2). Includes depositing, borrowing, repaying, and other functionality.
-Suitable for quantitative defi engineering, as well.
+A Brownie suite for basic interaction with the [Aave protocol](https://github.com/aave/protocol-v2). Includes depositing, borrowing, repaying, and other functionality. Suitable for quantitative defi engineering, as well.
 ### Example
-
-<br/>
 <p align="center">
-<img src="TODO" alt="Example integration test output">
+<img src="https://raw.githubusercontent.com/ZeroEkkusu/aave_brownie_py/main/img/example.png" alt="Example integration test output">
 </p>
-<br/>
 
 ### Todo
+- [ ] Licences and credits
 - [ ] CHALLENGE: short sell
 - [ ] Repay the remaining debt with the collateral using flash loans
 	- [ ] Change tests
 # Setup
 Clone this repo
 ```bash
-git clone this
+git clone https://github.com/ZeroEkkusu/aave_brownie_py
 ```
 ### Prerequisites
 - [nodejs and npm](https://nodejs.org/en/download/)
