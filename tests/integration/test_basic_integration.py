@@ -4,7 +4,7 @@ from scripts.weth import get_weth, get_eth_back
 from scripts.lending_pool import get_lending_pool, get_borrowable_data, repay_max
 from scripts.erc20 import approve_erc20, get_balance_of_erc20
 from scripts.get_asset_price import get_asset_price
-from scripts.get_token_address_aave_kovan import get_token_address_aave
+from scripts.get_token_address_aave import get_token_address_aave
 from web3 import Web3
 
 # MAKE SURE YOU HAVE EXCESS DAI IN YOUR ACCOUNT TO COMPLETE THE ENTIRE TEST
