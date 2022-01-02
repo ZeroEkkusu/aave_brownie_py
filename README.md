@@ -6,12 +6,11 @@ Suitable for quantitative defi engineering, as well.
 ![Integration test example](./img/example.png)
 
 ### Todo
-- [ ] Licences and credits
 - [ ] CHALLENGE: short sell
 - [ ] Repay the remaining debt with the collateral using flash loans
 	- [ ] Change tests
 # Setup
-Clone this repo
+### Clone
 ```bash
 git clone https://github.com/ZeroEkkusu/aave_brownie_py
 ```
@@ -24,14 +23,9 @@ pip install -r requirements.txt
 ```
 ### Other files
 Set up your `.env` file using the provided [`.env.example`](./.env.example)
-
-Or encrypt your private key
-```bash
-brownie accounts new <choose_account_id>
-```
 # Usage
 - Make sure you have excess DAI in your account before running the integration test - [Kovan DAI Faucet](https://staging.aave.com/#/faucet)
-*This will change after implementing the flash loan + swap functionality*
+<br>*This will change after implementing the flash loan + swap functionality*
 - **Make sure the account is debt-free before testing**
 ### Compile
 ```bash
@@ -39,5 +33,5 @@ brownie compile
 ```
 ### Test
 ```bash
-brownie test --network <choose_network>
+brownie test
 ```
