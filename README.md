@@ -35,3 +35,5 @@ brownie compile
 ```bash
 brownie test
 ```
+# Notice
+*This project is based on [PatrickAlphaC/aave_brownie_py](https://github.com/PatrickAlphaC/aave_brownie_py). See [`NOTICE.md`](./NOTICE.md).*

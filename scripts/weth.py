@@ -3,6 +3,7 @@ from brownie import config, interface, network
 
 
 def get_weth(amount):
+    # Modified from PatrickAlphaC/aave_brownie_py (https://github.com/PatrickAlphaC/aave_brownie_py). See NOTICE.md.
     """
     Mint WETH with ETH.
 

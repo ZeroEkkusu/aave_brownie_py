@@ -4,6 +4,7 @@ from scripts.erc20 import approve_erc20, get_balance_of_erc20
 
 
 def get_lending_pool():
+    # Modified from PatrickAlphaC/aave_brownie_py (https://github.com/PatrickAlphaC/aave_brownie_py). See NOTICE.md.
     """
     Fetch the correct Lending Pool address via the Addresses Provider and make a contract object.
 
@@ -19,6 +20,7 @@ def get_lending_pool():
 
 
 def get_borrowable_data(lending_pool, account):
+    # Modified from PatrickAlphaC/aave_brownie_py (https://github.com/PatrickAlphaC/aave_brownie_py). See NOTICE.md.
     """
     Get data for an account across all the reserves.
 

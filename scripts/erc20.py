@@ -2,6 +2,7 @@ from brownie import interface
 
 
 def approve_erc20(amount, spender, erc20_address, account):
+    # Modified from PatrickAlphaC/aave_brownie_py (https://github.com/PatrickAlphaC/aave_brownie_py). See NOTICE.md.
     """
     Approve a contract to spend my ERC20 token.
 

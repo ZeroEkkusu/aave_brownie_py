@@ -2,6 +2,7 @@ from brownie import interface
 
 
 def get_asset_price(price_feed_address):
+    # Modified from PatrickAlphaC/aave_brownie_py (https://github.com/PatrickAlphaC/aave_brownie_py). See NOTICE.md.
     """
     Get the latest exchange rate of a trading pair.
 

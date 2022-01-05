@@ -21,6 +21,7 @@ RATE_MODE = 1
 
 
 def test_basic_integration(dont_test_locally):
+    # Modified from PatrickAlphaC/aave_brownie_py (https://github.com/PatrickAlphaC/aave_brownie_py). See NOTICE.md.
     """
     Mint WETH, deposit WETH, borrow DAI, repay everything, withdraw WETH, unlock your ETH
     """
