@@ -6,9 +6,9 @@ Suitable for quantitative defi engineering, as well.
 ![Integration test example](./img/example.png)
 
 ### Todo
-- [ ] CHALLENGE: short sell
-- [ ] Repay the remaining debt with the collateral using flash loans
-	- [ ] Change tests
+- [ ] Short selling
+- [ ] Repaying remaining debt with collateral using flash loans
+
 # Setup
 ### Clone
 ```bash
@@ -35,5 +35,5 @@ brownie compile
 ```bash
 brownie test
 ```
-# Notice
-*This project is based on [PatrickAlphaC/aave_brownie_py](https://github.com/PatrickAlphaC/aave_brownie_py). See [`NOTICE.md`](./NOTICE.md).*
+# Acknowledgements
+This project is based on [PatrickAlphaC/aave_brownie_py](https://github.com/PatrickAlphaC/aave_brownie_py). See [`NOTICE.md`](./NOTICE.md).
